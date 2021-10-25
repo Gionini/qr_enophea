@@ -8,18 +8,18 @@
 	font-size: 14px;
     color: rgba(0,0,0,0.54);
 }
-.fb {
+/*.fb {
     border-bottom: 1px rgba(0,0,0,0.12) solid;
     min-height: 72px;
     float: left;
-    width: 100%;
+    width: 640px;
     padding: 16px 100px;
 }
 .instagram {
     border-bottom: 1px rgba(0,0,0,0.12) solid;
     min-height: 72px;
     float: left;
-    width: 100%;
+    width: 640px;
     padding: 16px 100px;
 }
 .Web {
@@ -27,8 +27,18 @@
     float: left;
     min-height: 72px;
     padding: 16px 100px;
-    width: 100%;
+    width: 640px;
+}*/
+
+.social_box {
+	border-bottom: 1px rgba(0,0,0,0.12) solid;
+    float: left;
+    min-height: 72px;
+    padding: 16px 100px;
+    width: 640px;
 }
+
+
 .logo {
 	width: 32px;
 	height: 32px;
@@ -36,4 +46,3 @@
 }
 .box_font{
 	display: inline-block;
-}
