@@ -36,8 +36,9 @@
     min-height: 72px;
     padding: 16px 100px;
     width: 640px;
+    display: block;
+    clear: both;
 }
-
 
 .logo {
 	width: 32px;
@@ -46,3 +47,7 @@
 }
 .box_font{
 	display: inline-block;
+}
+.image {
+    padding-top: 30px
+}
