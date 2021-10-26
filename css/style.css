@@ -32,12 +32,12 @@
 
 .social_box {
 	border-bottom: 1px rgba(0,0,0,0.12) solid;
-    float: left;
+    /*float: left;*/
     min-height: 72px;
     padding: 16px 100px;
-    width: 640px;
+    width: 100%;
     display: block;
-    clear: both;
+    /*clear: both;*/
 }
 
 .logo {
@@ -50,4 +50,8 @@
 }
 .image {
     padding-top: 30px
+}
+.main_card {
+    width: 640px;
+    margin: 0 auto;
 }
