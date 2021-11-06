@@ -8,28 +8,6 @@
 	font-size: 14px;
     color: rgba(0,0,0,0.54);
 }
-/*.fb {
-    border-bottom: 1px rgba(0,0,0,0.12) solid;
-    min-height: 72px;
-    float: left;
-    width: 640px;
-    padding: 16px 100px;
-}
-.instagram {
-    border-bottom: 1px rgba(0,0,0,0.12) solid;
-    min-height: 72px;
-    float: left;
-    width: 640px;
-    padding: 16px 100px;
-}
-.Web {
-    border-bottom: 1px rgba(0,0,0,0.12) solid;
-    float: left;
-    min-height: 72px;
-    padding: 16px 100px;
-    width: 640px;
-}*/
-
 .social_box {
 	border-bottom: 1px rgba(0,0,0,0.12) solid;
     /*float: left;*/
@@ -39,7 +17,12 @@
     display: block;
     /*clear: both;*/
 }
-
+.font_1:hover{
+    color: lightblue;
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-delay: 0.05s;
+}
 .logo {
 	width: 32px;
 	height: 32px;
@@ -54,4 +37,14 @@
 .main_card {
     width: 640px;
     margin: 0 auto;
+    background-color: rgba(0,0,0,0.54);
+}
+.referals {
+    background-color: white;
+}
+body {
+    background-image: url(../image/image_gvino.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
