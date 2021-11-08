@@ -52,6 +52,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(12px);
+    -webkit-filter: blur(12px);
 } 
 
 
