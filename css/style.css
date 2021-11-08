@@ -31,20 +31,30 @@
 .box_font{
 	display: inline-block;
 }
-.image {
-    padding-top: 30px
-}
 .main_card {
     width: 640px;
-    margin: 0 auto;
-    background-color: rgba(0,0,0,0.54);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    
+
+    
+
 }
 .referals {
     background-color: white;
 }
-body {
+ .background-image {
+    position: absolute;
     background-image: url(../image/image_gvino.png);
-    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
     background-repeat: no-repeat;
-    
-}
+    background-size: cover;
+    filter: blur(12px);
+} 
+
+
+  
