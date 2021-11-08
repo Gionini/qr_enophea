@@ -10,12 +10,10 @@
 }
 .social_box {
 	border-bottom: 1px rgba(0,0,0,0.12) solid;
-    /*float: left;*/
-    min-height: 72px;
-    padding: 16px 100px;
+    min-height: 100px;
+    padding: 40px 100px;
     width: 100%;
     display: block;
-    /*clear: both;*/
 }
 .font_1:hover{
     color: lightblue;
@@ -24,8 +22,8 @@
     transition-delay: 0.05s;
 }
 .logo {
-	width: 32px;
-	height: 32px;
+	width: 40px;
+	height: 40px;
 	display: inline-block;
 }
 .box_font{
@@ -34,9 +32,9 @@
 .main_card {
     width: 640px;
     position: absolute;
-    top: 0;
+    top: 20%;
     left: 50%;
-    transform: translate(-50%, 0%);
+    transform: translate(-50%, -20%);
     
 
     
